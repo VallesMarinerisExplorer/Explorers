@@ -1,3 +1,5 @@
+theme: minima
+
 os: Windows 10/11
 tools:
   python: "3.8+"

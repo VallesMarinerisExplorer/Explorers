@@ -1,6 +1,8 @@
 from bs4 import BeautifulSoup
 import warnings
 import requests
+# Credit Laboratoire de Météorologie Dynamique
+# See https://www-mars.lmd.jussieu.fr/mars/dust_climatology/index.html
 
 year = 2020
 month = 2

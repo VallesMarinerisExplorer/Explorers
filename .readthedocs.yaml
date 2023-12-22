@@ -1,6 +1,6 @@
 theme: minima
 
-os: Windows 10/11
+os: Windows 10
 tools:
   python: "3.8+"
 

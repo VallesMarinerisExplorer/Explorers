@@ -71,7 +71,7 @@ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSI
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/base_link.stl"/>
+        <mesh filename="https://raw.githubusercontent.com/VallesMarinerisExplorer/Explorers/main/Vehicles/husky/meshes/base_link.stl"/>
       </geometry>
       <material name="Black"/>
     </visual>
@@ -117,7 +117,7 @@ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSI
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/wheel.stl"/>
+        <mesh filename="https://raw.githubusercontent.com/VallesMarinerisExplorer/Explorers/main/Vehicles/husky/meshes/wheel.stl"/>
       </geometry>
       <material name="DarkGrey"/>
     </visual>
@@ -168,7 +168,7 @@ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSI
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/wheel.stl"/>
+        <mesh filename="https://raw.githubusercontent.com/VallesMarinerisExplorer/Explorers/main/Vehicles/husky/meshes/wheel.stl"/>
       </geometry>
       <material name="DarkGrey"/>
     </visual>
@@ -219,7 +219,7 @@ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSI
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/wheel.stl"/>
+        <mesh filename="https://raw.githubusercontent.com/VallesMarinerisExplorer/Explorers/main/Vehicles/husky/meshes/wheel.stl"/>
       </geometry>
       <material name="DarkGrey"/>
     </visual>
@@ -270,7 +270,7 @@ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSI
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/wheel.stl"/>
+        <mesh filename="https://raw.githubusercontent.com/VallesMarinerisExplorer/Explorers/main/Vehicles/husky/meshes/wheel.stl"/>
       </geometry>
       <material name="DarkGrey"/>
     </visual>
@@ -309,7 +309,7 @@ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSI
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/top_plate.stl"/>
+        <mesh filename="https://raw.githubusercontent.com/VallesMarinerisExplorer/Explorers/main/Vehicles/husky/meshes/top_plate.stl"/>
       </geometry>
       <material name="Yellow"/>
     </visual>
@@ -324,7 +324,7 @@ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSI
   <link name="user_rail_link">
     <visual>
       <geometry>
-        <mesh filename="meshes/user_rail.stl"/>
+        <mesh filename="https://raw.githubusercontent.com/VallesMarinerisExplorer/Explorers/main/Vehicles/husky/meshes/user_rail.stl"/>
       </geometry>
       <material name="DarkGrey"/>
     </visual>
@@ -340,7 +340,7 @@ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSI
   <link name="front_bumper_link">
     <visual>
       <geometry>
-        <mesh filename="meshes/bumper.stl"/>
+        <mesh filename="https://raw.githubusercontent.com/VallesMarinerisExplorer/Explorers/main/Vehicles/husky/meshes/bumper.stl"/>
       </geometry>
       <material name="DarkGrey"/>
     </visual>
@@ -356,7 +356,7 @@ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSI
   <link name="rear_bumper_link">
     <visual>
       <geometry>
-        <mesh filename="meshes/bumper.stl"/>
+        <mesh filename="https://raw.githubusercontent.com/VallesMarinerisExplorer/Explorers/main/Vehicles/husky/meshes/bumper.stl"/>
       </geometry>
       <material name="DarkGrey"/>
     </visual>
@@ -370,4 +370,3 @@ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSI
     <material>Gazebo/DarkGrey</material>
   </gazebo>
 </robot>
-

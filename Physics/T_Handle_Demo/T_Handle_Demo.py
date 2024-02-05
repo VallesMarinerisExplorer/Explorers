@@ -1,6 +1,6 @@
 """This file demonstrates how PyBullet is capable of simulating attitude mechanics, which is particularly 
 important to spacecraft attitude control and stability. An unstable shape (T-shaped handle) is spun, 
-illustrating the unstable yet periodic behavior that is predicted by the secondary-axis theorem."""
+illustrating the unstable yet periodic behavior that is predicted by the intermediate-axis theorem."""
 
 import pybullet as p
 import time

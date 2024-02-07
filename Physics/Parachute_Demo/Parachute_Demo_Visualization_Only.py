@@ -1,6 +1,6 @@
 """This file shows how soft body cloths in PyBullet can be used to visualize materials like parachutes. This file does
 not model the complex aerodynamics of a parachute, but forces have been applied to the bottom to make it appear to be
-falling somewhat realistically."""
+falling somewhat realistically. You can rotate the camera with the arrow keys."""
 
 import pybullet as p
 import pybullet_data
@@ -38,7 +38,7 @@ cameradist = 1
 
 
 # Connect to the physics server
-p.connect(p.GUI, options='--background_color_red=0.2 --background_color_green=0.2 --background_color_blue=0.2')
+p.connect(p.GUI, options='--background_color_red=0.3 --background_color_green=0.6 --background_color_blue=0.7')
 p.setAdditionalSearchPath(pybullet_data.getDataPath())
 p.configureDebugVisualizer(p.COV_ENABLE_GUI,0)
 p.resetSimulation(p.RESET_USE_DEFORMABLE_WORLD)
@@ -48,7 +48,7 @@ p.setRealTimeSimulation(useRealTimeSim)
 
 clothId = p.loadSoftBody("parachute3.obj", basePosition = [0,0,0], scale = 0.01, mass = 1., useNeoHookean = 1, useBendingSprings=1,useMassSpring=1, springElasticStiffness=1, springDampingStiffness=.1, springDampingAllDirections = 0, useSelfCollision = 1, frictionCoeff = .5, useFaceContact=1)
 # texture = p.loadTexture("YourTexture.jpg")
-p.changeVisualShape(clothId, -1, flags=p.VISUAL_SHAPE_DOUBLE_SIDED)#,textureUniqueId=texture)
+p.changeVisualShape(clothId, -1, flags=p.VISUAL_SHAPE_DOUBLE_SIDED,rgbaColor=[0.6,0.2,0.8,1])#textureUniqueId=texture)
 # p.getMeshData(clothId)
 basepos = []
 boxes =[]

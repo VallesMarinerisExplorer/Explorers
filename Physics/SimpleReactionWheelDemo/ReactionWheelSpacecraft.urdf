@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+
+<robot name="cube_with_wheels">
+
+  <!-- Materials -->
+  <material name="grey">
+    <color rgba="0.5 0.5 0.5 1"/>
+  </material>
+
+  <!-- Links -->
+  <link name="base_link">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="BaseCube.obj"/>
+      </geometry>
+      <material name="grey"/>
+    </visual>
+  </link>
+
+  <link name="wheel_link_1">
+    <inertial>
+      <mass value="0.1"/>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <inertia ixx="0.0001" ixy="0" ixz="0" iyy="0.0001" iyz="0" izz="0.0001"/>
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="ReactionWheel.obj"/>
+      </geometry>
+      <material name="grey"/>
+    </visual>
+  </link>
+
+
+
+  <!-- Joints -->
+  <joint name="joint_wheel_1" type="continuous">
+    <parent link="base_link"/>
+    <child link="wheel_link_1"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <axis xyz="1 0 0"/>
+  </joint>
+
+
+</robot>

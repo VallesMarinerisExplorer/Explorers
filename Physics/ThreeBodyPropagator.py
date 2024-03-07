@@ -18,48 +18,33 @@ def getKeysPressed2():
     # Keys to change camera
     if keys.get(65297):  # Up Arrow
         xyz = cam[11]
-        x = float(xyz[0]) + 0.125
+        x = float(xyz[0])
         y = xyz[1]
         z = xyz[2]
-        p.resetDebugVisualizerCamera(cameraYaw=cam[8], cameraPitch=cam[9], cameraDistance=cam[10],
+        p.resetDebugVisualizerCamera(cameraYaw=cam[8], cameraPitch=cam[9]-2, cameraDistance=cam[10],
                                      cameraTargetPosition=[x, y, z])
     if keys.get(65298):  # Down Arrow
         xyz = cam[11]
         x = float(xyz[0]) - 0.125
         y = xyz[1]
         z = xyz[2]
-        p.resetDebugVisualizerCamera(cameraYaw=cam[8], cameraPitch=cam[9], cameraDistance=cam[10],
+        p.resetDebugVisualizerCamera(cameraYaw=cam[8], cameraPitch=cam[9]+2, cameraDistance=cam[10],
                                      cameraTargetPosition=[x, y, z])
     if keys.get(65295):  # Left Arrow
         xyz = cam[11]
         x = xyz[0]
         y = float(xyz[1]) + 0.125
         z = xyz[2]
-        p.resetDebugVisualizerCamera(cameraYaw=cam[8], cameraPitch=cam[9], cameraDistance=cam[10],
+        p.resetDebugVisualizerCamera(cameraYaw=cam[8]-2, cameraPitch=cam[9], cameraDistance=cam[10],
                                      cameraTargetPosition=[x, y, z])
     if keys.get(65296):  # Right arrow
         xyz = cam[11]
         x = xyz[0]
         y = float(xyz[1]) - 0.125
         z = xyz[2]
-        p.resetDebugVisualizerCamera(cameraYaw=cam[8], cameraPitch=cam[9], cameraDistance=cam[10],
+        p.resetDebugVisualizerCamera(cameraYaw=cam[8]+2, cameraPitch=cam[9], cameraDistance=cam[10],
                                      cameraTargetPosition=[x, y, z])
 
-    if keys.get(112): # O
-        xyz = cam[11]
-        x = xyz[0]
-        y = float(xyz[1])
-        z = xyz[2]+ 0.125
-        p.resetDebugVisualizerCamera(cameraYaw=cam[8], cameraPitch=cam[9], cameraDistance=cam[10],
-                                     cameraTargetPosition=[x, y, z])
-
-    if keys.get(111):  # P
-        xyz = cam[11]
-        x = xyz[0]
-        y = float(xyz[1])
-        z = xyz[2]- 0.125
-        p.resetDebugVisualizerCamera(cameraYaw=cam[8], cameraPitch=cam[9], cameraDistance=cam[10],
-                                     cameraTargetPosition=[x, y, z])
 
 def model_3BP(state, t):
     # Gravitational parameters
@@ -153,7 +138,7 @@ while True:
     if initialized == 0:
         # x,y,z = kep_2_cart(398600,384,0.5,45,0,0,0)[0]
         # vx, vy, vz = kep_2_cart(398600,384,0.5,45,0,0,0)[1]
-        x,y,z = 384,90,0
+        x,y,z = 34,90,0
         vx,vy,vz = 0,0,90
         thetax = 0
         thetay = 0
@@ -179,7 +164,7 @@ while True:
     vz = sol[:, 5]
 
     line_to = [x[-1],y[-1],z[-1]]
-    line_color = [1, 0, 0]  # Red color (Red, Green, Blue)/1
+    line_color = [0, 1, 0]  # Red color (Red, Green, Blue)/1
     line_width = 2.0
     debug_line_id = p.addUserDebugLine(lineFromXYZ=line_from,
                                        lineToXYZ=line_to,

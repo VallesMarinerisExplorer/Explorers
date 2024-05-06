@@ -1,6 +1,6 @@
 import pybullet as p
 import time
-
+# LET IT BE NOTED TO ANYONE WHO READS THIS IN THE FUTURE. ROLL PITCH AND YAW ARE ALWAYS DEFINED IN RADIANS IN THE URDF, NOT DEGREES
 p.connect(p.GUI, options='--background_color_red=0 --background_color_green=0 --background_color_blue=0')
 p.setGravity(0, 0, 0)
 

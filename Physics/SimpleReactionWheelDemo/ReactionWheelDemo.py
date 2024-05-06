@@ -18,7 +18,7 @@ p.setJointMotorControlArray(cubeId, jointIndices=motorIds, controlMode=p.VELOCIT
 # Set initial velocities for reaction wheels
 initial_wheel_velocities = [0.0, 0.0]
 
-# Integral term initialization
+# Set pybullet realtime simulation to false (timestepped manually each while loop iteration)
 p.setRealTimeSimulation(0)
 
 i = 0

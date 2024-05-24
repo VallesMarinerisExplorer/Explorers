@@ -3,14 +3,13 @@
 
 import time
 import pandas as pd
-
 import sqlite3
 import os
 import aiosqlite
 import asyncio
 from lxml import html
 import cloudscraper
-import PySimpleGUI as sg
+import FreeSimpleGUI as sg
 import pybullet as p
 
 

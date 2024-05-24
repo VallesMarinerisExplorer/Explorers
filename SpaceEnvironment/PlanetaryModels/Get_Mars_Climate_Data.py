@@ -1,8 +1,12 @@
 from bs4 import BeautifulSoup
 import warnings
 import requests
+
+# This file uses the web interface of the Mars Climate Database to get temperature, pressure, density and wind (and also can get dust info probably) for Mars based
+# on the Mars Climate Model used/created by Laboratoire de Météorologie Dynamique.
+
 # Credit Laboratoire de Météorologie Dynamique
-# See https://www-mars.lmd.jussieu.fr/mars/dust_climatology/index.html
+# See https://www-mars.lmd.jussieu.fr/mars/mcd_training/  for more details on this model
 
 year = 2020
 month = 2

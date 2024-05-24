@@ -5,7 +5,7 @@ from siphon.catalog import TDSCatalog
 from datetime import datetime
 from xarray.backends import NetCDF4DataStore
 import xarray as xr
-import PySimpleGUI as sg
+import FreeSimpleGUI as sg
 
 best_gfs = TDSCatalog('http://thredds.ucar.edu/thredds/catalog/grib/NCEP/GFS/'
                       'Global_0p25deg/catalog.xml?dataset=grib/NCEP/GFS/Global_0p25deg/Best')

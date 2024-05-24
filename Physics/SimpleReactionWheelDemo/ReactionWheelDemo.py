@@ -1,5 +1,8 @@
 import pybullet as p
 import time
+# This script demonstrates how a spinning reaction wheel can change the orientation of a spacecraft (box) with conservation of angular momentum. The 
+# script has the wheel speed up, slow down and reverse, and the surrounding spacecraft body eventually changes its spin direction as well.
+
 # LET IT BE NOTED TO ANYONE WHO READS THIS IN THE FUTURE. ROLL PITCH AND YAW ARE ALWAYS DEFINED IN RADIANS IN THE URDF, NOT DEGREES
 p.connect(p.GUI, options='--background_color_red=0 --background_color_green=0 --background_color_blue=0')
 p.setGravity(0, 0, 0)

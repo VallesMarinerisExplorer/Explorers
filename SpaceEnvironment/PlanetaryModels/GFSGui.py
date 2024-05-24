@@ -7,8 +7,9 @@ from xarray.backends import NetCDF4DataStore
 import xarray as xr
 import FreeSimpleGUI as sg
 
-# This script creates a GUI to allow you choose to display various Global Forcast System (for Earth) maps/plots such as temperature, pressure, wind speed I believe
-# and others. Give it a try and let me know if it works!
+# This script creates a GUI to allow you choose to display various Global Forcast System (for Earth)
+# maps/plots such as temperature, pressure, wind speed I believe and others. Give it a try and let 
+# me know if it works!
 
 best_gfs = TDSCatalog('http://thredds.ucar.edu/thredds/catalog/grib/NCEP/GFS/'
                       'Global_0p25deg/catalog.xml?dataset=grib/NCEP/GFS/Global_0p25deg/Best')

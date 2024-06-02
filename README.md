@@ -4,6 +4,8 @@ An open-source spaceflight simulator for everyone.
 
 Under construction, so bring your hard hat, or just your brain!
 
+![Image](Images/Current_Capabilities.png)
+
 Visit the website at https://www.theexplorersproject.com/
 
 Check out the documentation here!

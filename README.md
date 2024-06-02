@@ -10,7 +10,12 @@ Under construction, so bring your hard hat, or just your brain!
 
 ![Image](Images/SimpleOrbit.png)
 
+
 ![Image](Images/3bodyOrbit.png)
+
+Orbit created around a single body in a 3 body system
+![Image](Images/3bodyOrbit.png)
+
 
 Visit the website at https://www.theexplorersproject.com/
 

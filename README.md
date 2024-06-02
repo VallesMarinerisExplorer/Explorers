@@ -2,15 +2,15 @@
 
 ### Explorers and Spacecraft Designer aim to be the most accurate, complete and user friendly open-source spacecraft design and simulation tools available. Key areas and focuses of this project include creating user-friendly tools for:
 
-### - Spacecraft mission design and trajectory plotting
-### - Terrain modeling and landing site selection
-### - Launch vehicle selection
-### - Spacecraft guidance, navigation and control studies
-### - Mechanical design studies using FreeCAD
-### - Space environment modeling
-### - Spacecraft thermal modeling
-### - Communications system design and modeling
-### - Instrumentation design and modeling
+##### - Spacecraft mission design and trajectory plotting
+##### - Terrain modeling and landing site selection
+##### - Launch vehicle selection
+##### - Spacecraft guidance, navigation and control studies
+##### - Mechanical design studies using FreeCAD
+##### - Space environment modeling
+##### - Spacecraft thermal modeling
+##### - Communications system design and modeling
+##### - Instrumentation design and modeling
 
 This project is under construction, so bring your hard hat, or just your brain! There is a lot to do!
 

@@ -1,7 +1,6 @@
 # Explorers
 
-### Explorers and Spacecraft Designer aim to be the most accurate, complete and user friendly open-source spacecraft design and simulation tools available. Key areas and focuses of this project include creating
-### user-friendly tools for:
+### Explorers and Spacecraft Designer aim to be the most accurate, complete and user friendly open-source spacecraft design and simulation tools available. Key areas and focuses of this project include creating user-friendly tools for:
 
 Spacecraft mission design and trajectory plotting
 Terrain modeling and landing site selection

@@ -22,7 +22,7 @@ Here are some examples of existing functions/scripts!
 ![Image](Images/SimpleOrbit.png)
 
 Orbit created around a single body in a 3 body system
-![Image](Images/3bodyOrbit.png)
+![Image](Images/Orbit2.png)
 
 
 Visit the website at https://www.theexplorersproject.com/
